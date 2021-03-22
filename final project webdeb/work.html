@@ -1,0 +1,85 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work</title>
+    <style>
+        body{
+            background-color: rgb(75, 75, 180) ;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            letter-spacing: 3px;
+            font-style: oblique;
+            color: seashell;
+            margin-top: 150px;
+            margin-left: 20px;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: rgb(75, 75, 180);
+            position:fixed;
+            top: 0;
+            width: 100%;
+        }
+        .navbar a {
+            float: right;
+            display: block;
+            text-align: center;
+            padding: 10px 30px;
+            margin: 20px;
+            text-decoration: none;
+            color: seashell;
+            font-size: 22px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            letter-spacing: 4px;
+        }
+        .navbar a:hover {
+            font-size: 27px;
+            letter-spacing: 7px;
+        }
+        .container{
+            display:flex;
+            flex-grow:1;
+            justify-content:center;
+            align-items: center;
+            flex-direction: row;
+            flex-wrap: wrap;
+            text-align: center;
+            margin-top: 50px;
+        }
+        p{
+            display: flex;
+            flex-grow: 1;
+            justify-content: center;
+            font-size: 40px;
+        }
+        img{
+            border-radius: 50px;
+            flex-basis: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="landing-page.html"> Home page</a>
+    </div>
+    <div>
+        <div class="container">
+            <img id="finance-tracking" src="dashboard_mobile.png" alt="Finance Tracking" width="50∞" height="auto">
+            <p>  Finance Tracking
+            </p>
+        </div>
+        <div class="container">
+            <img id="memmo"class="container" src="memmo_dribbble_4x.png" alt="memmo" width="50∞" height="auto">
+            <p> Memmo</p>
+        </div>
+        <div class="container" id="mobile-analytics">
+            <img class="container"src="mobile analytics.png" alt="mobile-analytics" width="50%" height="auto">
+            <p> Mobile Analytics</p>
+        </div>
+        <div class="container" id="ofspace">
+            <img class="container"src="Tyro Financial App I Ofspace.png" alt="ofspace" width="50%" height="auto">
+            <p> Ofspace</p>
+        </div>
+    </div>
+</body>
+</html>

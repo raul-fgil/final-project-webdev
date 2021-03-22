@@ -1,0 +1,118 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/4021f6da04.js" crossorigin="anonymous"></script>
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+    <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+    <title>contact</title>
+    <style>
+        body{
+            margin-top:80px;
+            background-color: rgb(75, 75, 180) ;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            letter-spacing: 3px;
+            font-style: oblique;
+            color: seashell;
+        }
+        .navbar {
+            overflow: hidden;
+            background-color: rgb(75, 75, 180);
+            position:fixed;
+            top: 0;
+            width: 100%;
+        }
+        .navbar a {
+            float: right;
+            display: block;
+            text-align: center;
+            padding: 10px 30px;
+            margin: 20px;
+            text-decoration: none;
+            color: seashell;
+            font-size: 22px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            letter-spacing: 4px;
+        }
+        .navbar a:hover {
+            font-size: 27px;
+            letter-spacing: 7px;
+        }
+        .email{
+            padding-left:80px;
+        }
+        .container{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            margin: 20px;
+            padding: 50px;}
+
+        p{ 
+            font-weight: bold;
+            font-size: 50px;
+            padding:20px;
+         }
+        form{
+            padding-left: 50px;
+            font-size: 30px;
+        }
+        input {
+            padding: 10px;
+            width: 450px;
+            font-size: 20px;
+        }
+        input[type=submit] {
+            width: 10em;  
+            height: 2em;
+            padding: 20px;
+            margin: 20px;
+            margin-bottom: 100px;
+        }
+        a{
+            text-decoration: none;
+            color:seashell;
+        }
+        a:hover{
+            font-size: 55px;
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="landing-page.html"> Home page</a>
+     </div>
+    <div>
+        <p class="email">
+            <a href="mailto:r.fern.gil@gmail.com"> E-mail</a>
+        </p>
+        <div class="container">
+            <i class="fas fa-star-of-life" style="font-size:60px;"></i>
+        </div>
+        <form action="">
+        <p>Get in touch</p>
+            <ul>
+                <li>
+                    <label for="Name">Name</label>
+                    <input type="text">
+                </li>
+                <br>
+                <li>
+                    <label for="Anschrift">e-mail</label>
+                    <input type="text" placeholder="...@...">
+                </li>
+            </ul>
+            <br>
+            <label for="Your message">Your message</label>
+            <textarea cols="60" rows="12" maxlength="15"></textarea>
+            <br><br><br><br>
+            <input id="submit" type="submit" value="Send">
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <title> about page</title>
+<head>
+  <script src="https://kit.fontawesome.com/4021f6da04.js" crossorigin="anonymous"></script>
+  <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin:20px;
+  background-color: rgb(75, 75, 180) ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 3px;
+  font-style: oblique;
+  color: seashell;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(75, 75, 180);
+  position:fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: right;
+  display: block;
+  text-align: center;
+  padding: 10px 30px;
+  margin: 20px;
+  text-decoration: none;
+  color: seashell;
+  font-size: 22px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  letter-spacing: 4px;
+}
+
+.navbar a:hover {
+  font-size: 27px;
+  letter-spacing: 7px;
+}
+.info {
+  display: flex;
+  padding-top: 200px;
+  padding-left: 50px;
+  padding-bottom: 80px;
+  margin-top: 5px;
+  font-size: 80px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+.h1{
+  display: flex;
+  justify-content: center;
+  padding-top: 0px;
+  font-size: 60px;
+  letter-spacing: 10px;
+  text-decoration:underline 2px;
+  border-top: seashell solid 0.5px;
+  border-bottom: seashell solid 0.5px;
+}
+#icon{
+  padding:100px;
+}
+.container{
+display:flex;
+justify-content:center;
+align-items: center;
+flex-direction: row;
+flex-wrap: wrap;
+text-align: center;
+}
+  .flex-item{
+  flex-grow: 1;
+  margin:10px;
+  padding: 10px;
+  }
+.zoom{ border-radius: 50px;}
+.zoom:hover{
+  -ms-transform: scale(1.05); /* IE 9 */
+  -webkit-transform: scale(1.05); /* Safari 3-8 */
+  transform: scale(1.05); }
+
+h2{ font-size: 30px;}
+h2:hover{font-size: 40px;}
+#profile-pic,img{
+  border-radius: 20px;  
+}
+.flex-item-2{
+  flex-grow: 1;
+  margin:15px;
+  text-align:left;
+  font-size: 25px;
+  border-top: seashell solid 0.5px;
+  border-bottom: seashell solid 0.5px;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.navbar-bottom a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 30px 30px;
+  margin: 20px;
+  text-decoration: none;
+  color: seashell;
+  font-size: 22px;
+  letter-spacing: 4px;
+}
+.navbar-bottom .back-to-top a{
+  float: left;}
+
+.navbar-bottom a:hover {
+  font-size: 27px;
+  letter-spacing: 7px;
+}
+
+</style>
+</head>
+<body>
+
+  <div class="navbar">
+    <a href="#home">work</a>
+    <a href="#contact">contact</a>
+    <a href="">about</a>
+  </div>
+  <div class="info">
+    <p> I am Raül <br>
+      WebDev student from BCN <br>
+      based in Berlin <br>
+    </p>
+  </div>
+  <br>
+  <div class="h1">
+    <p>Projects</p>
+  </div>
+  <div class="container" id="icon">
+    <i class="fas fa-star-of-life" style="font-size:60px;"></i>
+  </div>
+  <div class="container">
+    <div class="flex-item">
+      <img class="zoom" src="dashboard_mobile.png" alt="app-screen-1" height="400px" width="500px">
+      <h2>Finance tracking</h2>
+    </div>
+    <div class="flex-item">
+      <img class="zoom" src="Tyro Financial App I Ofspace.png" alt="app-screen-2" height="400px" width="500px">
+      <h2>Ofspace</h2>
+    </div>
+  </div>
+  <div class="container">
+    <div class="flex-item">
+        <img class="zoom" src="memmo_dribbble_4x.png" alt="app-screen-3" height="400px" width="500px">
+        <h2>Memmo</h2>
+    </div>
+    <div class="flex-item">
+        <img class="zoom" src="mobile analytics.png" alt="app-screen-3" height="400px" width="500px">
+        <h2>Mobile analytics</h2>
+    </div>
+  </div>
+  <div class="container" id="icon">
+    <i class="fas fa-star-of-life" style="font-size:60px;"></i>
+  </div>
+  <div class="container" id="about">
+    <img id="profile-pic"class="flex-item" src="imageedit_1_9638524104.png" alt="profile-pic" height="auto" width="200px">
+    <p class="flex-item-2"> I am 24 <br><br> My academic background is in political theory <br><br> I joined DCI at the end of February <br><br> I am interested in web development and UI/UX</p>
+  </div>
+  <div class="navbar-bottom">
+    <a href="#home">dribble</a>
+    <a href="#contact">linkedin</a>
+    <a href="">resume</a>
+    <a class="back-to-top"href=""> back to top</a>
+  </div>
+</body>
+</html>
+
